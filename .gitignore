@@ -1,0 +1,62 @@
+
+# Dependencies
+/node_modules/
+/.pnp
+.pnp.*
+
+# Next.js build output
+/.next/
+/out/
+
+# Production
+/build/
+/dist/
+
+# Vercel
+/.vercel/
+
+# Environment variables
+.env*
+!.env.example
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+*.pem
+
+# IDE and editors
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Operating system
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+
+# Backup files
+*.backup
+*.bak
+
+# Coverage reports
+/coverage/
+
+# Explicitly keep application files
+!/src/
+!/public/
+!/package.json
+!/package-lock.json
+!/next.config.ts
+!/tsconfig.json
