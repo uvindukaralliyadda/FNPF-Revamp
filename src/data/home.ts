@@ -13,7 +13,7 @@ export type HeroSlide = {
 export const HERO_SLIDES: HeroSlide[] = [
   {
     key: "members",
-    image: { src: "/images/hero/members.jpg", alt: "Young couple smiling at sunset over the water", position: "50% 30%" },
+    image: { src: "/images/hero/family.webp", alt: "Young couple smiling at sunset over the water", position: "50% 30%" },
     title: "Securing Fiji’s future since 1966",
     text: "Trusted by more than 440,000 members to grow their savings for a better retirement.",
     feature: { label: "Interest declared for 2026", meta: "Credited to member accounts", value: "9.5%" },
@@ -24,7 +24,7 @@ export const HERO_SLIDES: HeroSlide[] = [
   },
   {
     key: "pensioners",
-    image: { src: "/images/hero/pensioners.jpg", alt: "Smiling older man in a green shirt", position: "68% 30%" },
+    image: { src: "/images/hero/old.webp", alt: "Smiling older man in a green shirt", position: "68% 30%" },
     title: "A steady income for the years ahead",
     text: "Turn your savings into a regular monthly income with a Life Pension, Term Annuity or DrawDown Account.",
     feature: { label: "Retirement income options", meta: "Life Pension, Term Annuity, DrawDown", value: "3" },
@@ -35,7 +35,7 @@ export const HERO_SLIDES: HeroSlide[] = [
   },
   {
     key: "employers",
-    image: { src: "/images/hero/employers.jpg", alt: "Business owner working on a laptop", position: "28% 25%" },
+    image: { src: "/images/hero/couple.webp", alt: "Business owner working on a laptop", position: "28% 25%" },
     title: "Supporting the businesses that power Fiji",
     text: "Register your business, add employees and manage FNPF contributions online.",
     feature: { label: "Member contribution from wages", meta: "Mandated by law", value: "8%" },
