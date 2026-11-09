@@ -46,16 +46,16 @@ export const HERO_SLIDES: HeroSlide[] = [
   },
 ];
 
-/** Each card has a background photo; position sets the crop focus. */
+/** Each card has a background photo (800×600 WebP); position sets the crop focus. */
 export const QUICK_LINKS: Array<{ icon: IconName; title: string; text: string; href: string; image: { src: string; position: string } }> = [
-  { icon: "wallet", title: "Check my balance", text: "App, portal or *567#", href: LEGACY("digital-services/"), image: { src: "/images/quick/check-balance.jpg", position: "68% 50%" } },
-  { icon: "cash", title: "Apply for a withdrawal", text: "Education, medical, housing and more", href: LEGACY("early-partial-withdrawal/"), image: { src: "/images/quick/withdrawal.jpg", position: "55% 45%" } },
-  { icon: "user-plus", title: "Join FNPF", text: "Compulsory or voluntary membership", href: LEGACY("savings-for-children/"), image: { src: "/images/quick/join.jpg", position: "72% 40%" } },
-  { icon: "heart", title: "Update my nominee", text: "Choose who receives your savings", href: LEGACY("nomination/"), image: { src: "/images/quick/nominee.jpg", position: "50% 55%" } },
-  { icon: "card", title: "Pay contributions", text: "Schedules, invoices and payment", href: LOGINS.employer.href, image: { src: "/images/quick/contributions.jpg", position: "40% 50%" } },
-  { icon: "file", title: "Find a form", text: "Every FNPF form in one place", href: "#" /* forms library page to be created */, image: { src: "/images/quick/forms.jpg", position: "45% 40%" } },
-  { icon: "pin", title: "Find an office", text: "Branches across Fiji", href: LEGACY("location/"), image: { src: "/images/quick/office.jpg", position: "45% 35%" } },
-  { icon: "chart", title: "Plan my retirement", text: "Options and calculator", href: LEGACY("plan-your-retirement/"), image: { src: "/images/quick/retirement.jpg", position: "35% 40%" } },
+  { icon: "wallet", title: "Check my balance", text: "App, portal or *567#", href: LEGACY("digital-services/"), image: { src: "/images/quick/checkbalance.jpg", position: "60% 35%" } },
+  { icon: "cash", title: "Apply for a withdrawal", text: "Education, medical, housing and more", href: LEGACY("early-partial-withdrawal/"), image: { src: "/images/quick/withdraw.jpg", position: "50% 30%" } },
+  { icon: "user-plus", title: "Join FNPF", text: "Compulsory or voluntary membership", href: LEGACY("savings-for-children/"), image: { src: "/images/quick/joinn.jpg", position: "50% 25%" } },
+  { icon: "heart", title: "Update my nominee", text: "Choose who receives your savings", href: LEGACY("nomination/"), image: { src: "/images/quick/nomineee.jpg", position: "50% 45%" } },
+  { icon: "card", title: "Pay contributions", text: "Schedules, invoices and payment", href: LOGINS.employer.href, image: { src: "/images/quick/contribution.jpg", position: "60% 30%" } },
+  { icon: "file", title: "Find a form", text: "Every FNPF form in one place", href: "#" /* forms library page to be created */, image: { src: "/images/quick/form.jpg", position: "45% 60%" } },
+  { icon: "pin", title: "Find an office", text: "Branches across Fiji", href: LEGACY("location/"), image: { src: "/images/quick/suva.jpg", position: "50% 50%" } },
+  { icon: "chart", title: "Plan my retirement", text: "Options and calculator", href: LEGACY("plan-your-retirement/"), image: { src: "/images/quick/retirements.jpg", position: "65% 45%" } },
 ];
 
 /** Confirm figures and add an "as at" date with FNPF before launch. */
