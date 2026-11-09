@@ -56,7 +56,7 @@ export function ValuesFilm() {
         aria-label="FNPF values film: Excellence, Teamwork, Humility, Integrity and Courage"
         className="block size-full object-cover transition-transform duration-[900ms] ease-soft group-hover/film:scale-[1.03]"
       >
-        <source src="/videos/fnpf-values-film.mp4" type="video/mp4" />
+        <source src="/videos/fnpf_values.mp4" type="video/mp4" />
       </video>
       <button
         type="button"
