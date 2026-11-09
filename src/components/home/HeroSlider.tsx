@@ -56,11 +56,10 @@ export function HeroSlider() {
       aria-roledescription="carousel"
       aria-label="FNPF highlights"
       tabIndex={-1}
-      onPointerEnter={(e) => {
-        if (e.pointerType === "mouse") hoverPaused.current = true;
+      
+            onFocus={(e) => {
+        if ((e.target as Element).matches(":focus-visible")) hoverPaused.current = true;
       }}
-      onPointerLeave={() => (hoverPaused.current = false)}
-      onFocus={() => (hoverPaused.current = true)}
       onBlur={(e) => {
         if (!e.currentTarget.contains(e.relatedTarget)) hoverPaused.current = false;
       }}
