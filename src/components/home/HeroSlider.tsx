@@ -7,7 +7,7 @@ import { Icon } from "@/components/ui/Icon";
 import { HERO_SLIDES } from "@/data/home";
 import { cn } from "@/lib/cn";
 
-const DURATION = 2000; // ms per slide
+const DURATION = 10000; // ms per slide
 
 /** Full-width photo slider: headline bottom-left, floating stat cards bottom-right, no CTAs. */
 export function HeroSlider() {
